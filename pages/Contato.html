@@ -16,26 +16,37 @@
     <body>
 <header>
  <!--NAVBAR--> 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" aria-label="Twelfth navbar example">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-    <li class="nav-item"><a class="nav-link" href="Comidas.html">Gastronomia</a></li>
-        <li class="nav-item"><a class="nav-link" href="Cultura.html">Cultura</a></li>
-        <li class="nav-item"><a class="nav-link" href="Cidade.html">Cidades</a></li>
-        <li class="nav-item"><a class="nav-link" href="Selecao.html">Seleção</a></li>
-         <li class="nav-item"><a class="nav-link" href="Contato.html">Contato</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-
-
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Comidas.html">Gastronomia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Cultura.html">Cultura</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Cidade.html">Cidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Selecao.html">Seleção</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contato.html">Contato</a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
 
 </header>
 
@@ -56,25 +67,27 @@
       <h2>Você já visitou a Argentina?</h2>
       <p class="lead">Queremos saber como foi a sua experiência! Conte para nós sobre os lugares que você conheceu, as comidas típicas que experimentou e os momentos que mais marcaram. </p>
     </div>
+    <!--Formulário de Contato-->
+
 <form class="needs-validation" novalidate>
       <div class="col-md-12 col-lg-12">
         <h4 class="mb-3">Preencha o formulário</h4>
         <form class="needs-validation" novalidate>
           <div class="row g-3">
             <div class="col-sm-6">
-              <label for="firstName" class="form-label">Nome</label>
+              <label for="firstName" class="form-label">Nome Completo</label>
               <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
               <div class="invalid-feedback">
                 Valid first name is required.
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-sm-6">
               <label for="username" class="form-label">Email</label>
               <div class="input-group has-validation">
                 <span class="input-group-text">@</span>
                 <input type="text" class="form-control" id="username" placeholder="Username" required>
               <div class="invalid-feedback">
-                  Your username is required.
+                 Salvar email é obrigatório.
                 </div>
               </div>
             </div>
@@ -86,13 +99,14 @@
   </div>
 
 
-    <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+    <button class="w-100 btn btn-primary btn-lg" type="submit"><h4>Enviar Mensagem</h4></button>
 
 </form>
 
 <br><br><br><br>
 <hr class="featurette-divider">
 
+<!--rodapé-->
 <footer class="container py-5">
   <div class="row">
     <div class="col-12 col-md">

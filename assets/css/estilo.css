@@ -1,7 +1,6 @@
-*{
- font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
 
-}
+ 
+
 body {
     overflow-x: hidden;
 }
@@ -18,12 +17,27 @@ body {
 .carousel-item{
     height: 100vh;
     min-height: 300px;
+    position: relative;
 }
 
+.carousel-caption{
+     top: 0;
+  bottom: 0;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.carousel-caption img{
+     height: 100%;
+  object-fit: cover;
+}
 
 .carousel-caption h5{
-    color:rgb(255, 255, 255);
-    font-size: 150px;
+    color:#ffffff;
+    font-size:clamp(30px, 8vw, 120px);
     text-align: center;
     text-transform: uppercase;
     margin-top: 25px;
@@ -41,7 +55,7 @@ body {
 
 }
 .navbar.navbar-expand-lg.navbar-light.bg-light.navbar-brand{
-   color:rgb(255, 255, 255); 
+   color:#ffffff; 
    font-size: 22px;
    font-weight: bold;
    letter-spacing: 2px;
@@ -60,24 +74,22 @@ body {
 
 
 
-/*!
-.navbar-toggler{
-   
-    font-size: 18px;
-    line-height: 0.3;
-    background-color:#fff;
-}
-*/
 @media only screen and (max-width: 768px) {
     
     .navbar-nav{
         text-align: center;
-        background: rgba(0, 0, 0, 0.5);
+        background: #ffffff80;
     }
     .carousel-caption h5{
         font-size: 17px;
     }
+
+
+  .carousel-item {
+    height: 40vh;
+  }
 }
+
 
 .btn-secondary{
     background-color: #ffd900;
@@ -86,20 +98,3 @@ body {
 }
 
 
-.footer{
-    background-color: #87CEEB;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer h5{
-    color: #000000;
-    font-size: 18px;
-    margin-bottom: 10px;
-}  
-
-.footer link{
-    color: #000000;
-    text-decoration: none;
-    margin: 0 10px;
-}
