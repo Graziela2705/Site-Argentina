@@ -6,12 +6,12 @@ Este projeto é um site desenvolvido pelo Projeto Volta ao Mundo, com o objetivo
 ![Preview do site](./assets/img/FaixaArgentina.png)
 
 ## 🌎 Venha Conhecer!
-O site apresenta conteúdos sobre:
-📚- Curiosidades Históricas
-💃- Festivais
-🧉- Gastronomia típica
-🏞️- Cidades turísticas
-⚽- Seleção argentina de futebol
+O site apresenta conteúdos sobre:<br>
+📚- Curiosidades Históricas<br>
+💃- Festivais<br>
+🧉- Gastronomia típica<br>
+🏞️- Cidades turísticas<br>
+⚽- Seleção argentina de futebol<br>
 
 ## 🚀 Tecnologias
 
@@ -26,15 +26,15 @@ O site apresenta conteúdos sobre:
 </div>
 
 ## 🎯 Funcionalidades
-▫️ Navbar fixa
-▫️ Cards informativos
-▫️ Layout responsivo
+▫️ Navbar fixa<br>
+▫️ Cards informativos<br>
+▫️ Layout responsivo<br>
 
 ## 💡 Aprendizados
-Este projeto me ajudou a desenvolver habilidades em:
-▫️ Front-end
-▫️ Organização de layout
-▫️ Uso do Bootstrap
+Este projeto me ajudou a desenvolver habilidades em:<br>
+▫️ Front-end<br>
+▫️ Organização de layout<br>
+▫️ Uso do Bootstrap<br>
 
 
 <div>
